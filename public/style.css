@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(277, 64%, 61%);
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    background-color: hsl(244, 38%, 16%);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card__picture {
+    width: 45%;
+}
+
+.picture__img {
+    width: 100%;
+    height: 100%;
+}
+
+.card__text {
+    padding: 40px 80px;
+}
+
+.card__title {
+    width: 500px;
+    color: hsl(0, 0%, 100%);
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.card__title--color {
+    color: hsl(277, 64%, 61%);
+}
+
+.card__paragraph {
+    width: 450px;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);    
+}
+
+.card__stats {
+    display: flex;
+}
+
+.attribution {
+    position: fixed;
+    bottom: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+}
