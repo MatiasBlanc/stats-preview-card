@@ -59,7 +59,30 @@ a {
 }
 
 .card__stats {
+    width: 80%;
     display: flex;
+    justify-content: space-around;
+}
+
+.stats__container {
+}
+
+.stats__number {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.stats__text {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0;
 }
 
 .attribution {
